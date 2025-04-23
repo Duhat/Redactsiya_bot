@@ -24,17 +24,17 @@ bot.use(async (ctx, next) => {
 });
 
 bot.command('start', (ctx) => {
-  console.log('✅ /start called');
+  console.log('✅ /start вызван');
   return ctx.replyWithMarkdown(
-    `👋 *Welcome to the editorial bot!*\n\n` +
-      `📌 You can submit your completed article in the format:\n` +
-      `\`Title: <article title>\nLink: <article link>\`\n\n` +
-      `🎨 Or choose one of our articles and create a design for it\n` +
-      `Use /design to select an article\n\n` +
-      `Memo for designers: https://www.figma.com/design/w5hRtqFM8wUZKOilbOY7oC/%D1%80%D0%B0%D1%81%D1%81%D0%B2%D0%B5%D1%82-%D0%A2%D0%B8%D0%96?node-id=369-17&t=kGFIgqXGgkWncbUC-0\n\n` +
-      `Send materials with links to cloud storage!`
+    `👋 *Добро пожаловать в редакционный бот!*\n\n` +
+    `📌 Чтобы отправить свою готовую статью, используйте команду /submit\n\n` +
+    `🎨 Или выберите одну из наших статей и создайте для неё дизайн.\n` +
+    `Для выбора статьи используйте команду /design\n\n` +
+    `📋 Памятка для дизайнеров: https://www.figma.com/design/w5hRtqFM8wUZKOilbOY7oC/%D1%80%D0%B0%D1%81%D1%81%D0%B2%D0%B5%D1%82-%D0%A2%D0%B8%D0%96?node-id=369-17&t=kGFIgqXGgkWncbUC-0\n\n` +
+    `📤 Отправляйте материалы ссылками на облачные хранилища!`
   );
 });
+
 
 // Register handlers in the correct order
 moderatorHandler(bot, db, MODERATOR_ID);
