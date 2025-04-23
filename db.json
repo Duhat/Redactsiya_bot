@@ -1,5 +1,62 @@
 {
-  "articles": [],
-  "designs": [],
-  "users": []
+  "articles": [
+    {
+      "id": 1744812302316,
+      "title": "тест",
+      "link": "https://example.com/article",
+      "description": "описание",
+      "status": "approved",
+      "author": 5135254103,
+      "createdAt": "2025-04-16T14:05:02.316Z",
+      "moderatedAt": "2025-04-16T14:05:07.174Z"
+    },
+    {
+      "id": 1744813109289,
+      "title": "ntcnbr",
+      "link": "https://example.com/article",
+      "description": "asdasdasdasdddddd",
+      "status": "approved",
+      "author": 5135254103,
+      "createdAt": "2025-04-16T14:18:29.289Z",
+      "moderatedAt": "2025-04-16T14:18:31.241Z"
+    },
+    {
+      "id": 1744815775328,
+      "title": "название",
+      "link": "https://example.com/article",
+      "description": "выавыаыва",
+      "status": "approved",
+      "author": 5135254103,
+      "createdAt": "2025-04-16T15:02:55.328Z",
+      "moderatedAt": "2025-04-16T15:02:57.287Z"
+    },
+    {
+      "id": 1744902456524,
+      "title": "тролололо",
+      "link": "https://example.com/article",
+      "description": "тралалала",
+      "status": "approved",
+      "author": 5135254103,
+      "createdAt": "2025-04-17T15:07:36.524Z",
+      "moderatedAt": "2025-04-17T15:07:41.348Z"
+    }
+  ],
+  "designs": [
+    {
+      "id": 1744816571210,
+      "articleId": 1744812302316,
+      "designerId": 5135254103,
+      "designUrl": "https://example.com/art",
+      "status": "pending",
+      "createdAt": "2025-04-16T15:16:11.210Z"
+    },
+    {
+      "id": 1744816686825,
+      "articleId": 1744813109289,
+      "designerId": 5135254103,
+      "designUrl": "https://example.com/artic",
+      "status": "pending",
+      "createdAt": "2025-04-16T15:18:06.825Z"
+    }
+  ]
 }
